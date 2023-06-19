@@ -31,17 +31,15 @@ I want to preface this by saying that I have utilized a tutorial from the Course
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/feA3kI9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+The steps that I took in order to get this webspace up and running within this Windows 10 Server include various web hosting actions. We started off by configuring Internet Information Services (IIS) as an internal web server within the Virtual Machine itself. We then downloaded the configuration files needed such as PHP 7.3.8, MySQL 12.3.0, PHP Manager for IIS, and a few other files needed for the proper function of the osTicket Application. Basically, we did all of the preliminary steps needed to create this live application to function internally within this Virtual Machine itself without actually giving it a specific domain name and setting up the Domain Name System to actually allow external connections from outside of the network. There were settings and permissions that needed to be implemented within the IIS Web Server itself in addition to what I explained, but I thought that may be too much information for this relatively simple project.  </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5l0MWRQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+After the initial installation and making sure that the osTicket is available within the Local Host at 127.0.0.1, we then have to finish the actual installation. We set up HeidiSQL as a Database client in order to actually utilize the MySQL services connected to osTicket. We had to set up a "Help Desk Name", an Admin User and set up the actual Database connection that will be used for keeping track of the various data within osTicket itself. </p>
 <br />
